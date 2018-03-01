@@ -19,8 +19,6 @@ class Solution:
         while(i < len(A_list)):
             try:
                 location = my_dict[A_list[i]]
-                #if curr_len > total:
-                #    total = curr_len
                 curr_len = 0
                 i = location + 1
                 my_dict = {}
